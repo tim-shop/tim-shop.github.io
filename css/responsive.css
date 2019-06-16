@@ -144,9 +144,6 @@
     .navbar-collapse.in {
         overflow: inherit;
     }
-    .mainmenu ul li a.active {
-        padding-left: 15px;
-    }
     .dropdown .fa-angle-down {
         display: none;
     }
