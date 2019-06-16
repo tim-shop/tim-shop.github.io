@@ -1,3 +1,10 @@
+/*************************
+*******Typography******
+**************************/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
 body {
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -169,10 +176,6 @@ a#scrollUp i {
 
 .navbar-collapse.collapse {
     padding-left: 0;
-}
-
-.mainmenu ul li {
-    padding-left: 15px;
 }
 
 .mainmenu ul li:first-child {
@@ -941,6 +944,7 @@ h2.title {
 }
 
 .category-tab ul {
+    background: #f5f5ed;
     border-bottom: 1px solid #3121bc;
     list-style: none outside none;
     margin: 0 0 30px;
@@ -2353,6 +2357,10 @@ textarea {
 #contact-page .form-control:hover {
     box-shadow: inherit;
     border-color: #FDB45E;
+}
+
+#contact-page .contact-info {
+    padding: 0 20px;
 }
 
 #contact-page .contact-info address {
