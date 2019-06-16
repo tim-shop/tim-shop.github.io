@@ -171,6 +171,12 @@ a#scrollUp i {
     padding-left: 0;
 }
 
+@media(min-width:768px) {
+    .mainmenu ul li {
+        padding-left: 15px;
+    }
+}
+
 .mainmenu ul li:first-child {
     padding-left: 0px;
 }
@@ -937,7 +943,6 @@ h2.title {
 }
 
 .category-tab ul {
-    background: #f5f5ed;
     border-bottom: 1px solid #3121bc;
     list-style: none outside none;
     margin: 0 0 30px;
@@ -2350,10 +2355,6 @@ textarea {
 #contact-page .form-control:hover {
     box-shadow: inherit;
     border-color: #FDB45E;
-}
-
-#contact-page .contact-info {
-    padding: 0 20px;
 }
 
 #contact-page .contact-info address {
