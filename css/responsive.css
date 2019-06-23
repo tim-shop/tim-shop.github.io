@@ -423,3 +423,18 @@
         float: none;
     }
 }
+
+@media (min-width:992px) and (max-width:1200px) {
+    .carousel-inner img {
+        margin-top: 45%;
+    }
+    .features_items .productinfo img {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-inner img {
+        margin-top: 115px;
+    }
+}
