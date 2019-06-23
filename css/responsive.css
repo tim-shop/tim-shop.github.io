@@ -438,3 +438,9 @@
         margin-top: 115px;
     }
 }
+
+@media (min-width:768px) and (max-width:991px) {
+    .carousel-inner img {
+        margin-top: 55%;
+    }
+}
