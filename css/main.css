@@ -799,6 +799,7 @@ h2.title {
     position: absolute;
     top: 65%;
     left: 50%;
+    width: fit-content;
     transform: translateX(-50%);
     color: #2560b2;
     font-family: 'Roboto', sans-serif;
@@ -939,7 +940,7 @@ h2.title {
 }
 
 .category-tab img {
-    margin-top: 35%;
+    margin-top: 50%;
 }
 
 .category-tab ul {
@@ -1153,7 +1154,7 @@ li#reset-brands {
 }
 
 .carousel-inner img {
-    margin-top: 23%;
+    margin-top: 33%;
     max-height: 311px;
 }
 
